@@ -3,8 +3,8 @@ require 'pry'
 def my_collect(x)
   i = 0
   array = []
+  binding.pry
   while i < x.length
-    binding.pry
     array << yield(x[i])
     i += 1
   end
