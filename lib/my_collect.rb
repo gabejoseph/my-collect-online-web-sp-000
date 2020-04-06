@@ -1,13 +1,12 @@
-def my_collect(x)
+def my_collect(languages, names)
   i = 0
   array = []
-  
   while i < x.length
-    array << y.upcase
+    yield array << x
     i += 1
   end
   array
 end
 
 my_collect([x]) { |lang| lang.upcase}
-my_collect([x]) { |name|  }
+my_collect([x]) { |name| name.split(" ").first}
