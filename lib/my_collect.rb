@@ -1,7 +1,7 @@
-def my_collect(languages)
+def my_collect(x)
   i = 0
   frame = []
-  while i < languages.length
+  while i < x.length
     i += 1
   end
   frame
