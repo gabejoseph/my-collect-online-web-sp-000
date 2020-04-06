@@ -1,10 +1,10 @@
 def my_collect(x)
   i = 0
-  frame = []
-  while i < x.length
-    
+  array = []
+  while i < x.length do |y|
+    array << y.upcase
     i += 1
   end
-  frame
+  array
 end
 
