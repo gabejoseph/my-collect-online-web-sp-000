@@ -9,5 +9,5 @@ def my_collect(x)
   array
 end
 
-my_collect([languages]) { |lang| lang.upcase}
-my_collect([names]) { |name| puts "Hi, #{name}" }
+my_collect([x]) { |lang| lang.upcase}
+my_collect([x]) { |name|  }
