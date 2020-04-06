@@ -9,3 +9,5 @@ def my_collect(x)
   array
 end
 
+my_collect([languages]) { |z|  }
+my_collect([names]) { |z| puts "Hi, #{name}" }
