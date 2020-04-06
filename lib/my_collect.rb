@@ -8,5 +8,5 @@ def my_collect(x)
   array
 end
 
-my_collect([x]) {|lang| lang.upcase}
-my_collect([x]) {|name| name.split(" ").first}
+# my_collect([x]) {|lang| lang.upcase}
+# my_collect([x]) {|name| name.split(" ").first}
