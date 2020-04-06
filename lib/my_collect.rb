@@ -2,8 +2,9 @@ def collect(x)
   i = 0
   frame = []
   while i < x.length
-    frame << x 
+    frame << x.upcase
     i += 1
   end
+  frame
 end
 
