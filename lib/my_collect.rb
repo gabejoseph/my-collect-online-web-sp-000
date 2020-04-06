@@ -1,4 +1,4 @@
-def my_collect(languages, students)
+def my_collect(x)
   i = 0
   array = []
   while i < x.length
@@ -8,5 +8,5 @@ def my_collect(languages, students)
   array
 end
 
-my_collect([languages]) { |lang| lang.upcase}
-my_collect([students]) { |name| name.split(" ").first}
+my_collect([x]) { |lang| lang.upcase}
+my_collect([x]) { |name| name.split(" ").first}
